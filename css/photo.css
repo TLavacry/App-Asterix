@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    margin-top: 1vh;
+    overflow: hidden;
+    display: grid;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+a-scene {
+    width: 100%;
+    height: 100vh;
+}
+
+a-camera {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.ParcAsterix {
+    width: 50%;
+    margin: auto;
+}
